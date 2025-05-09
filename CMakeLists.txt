@@ -60,6 +60,7 @@ target_include_directories(lab-01-galton-board PRIVATE
 # Add any user requested libraries
 target_link_libraries(lab-01-galton-board 
         hardware_i2c
+        hardware_adc
         
         )
 
